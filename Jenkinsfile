@@ -4,8 +4,8 @@ pipeline {
         stage('run') {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
-                sh 'python --version'
-                sh 'python Helloworld.py'
+                sh 'python3 --version'
+                sh 'python3 Helloworld.py'
             }
         }
     }
